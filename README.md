@@ -1,4 +1,4 @@
-# KTL_project_08_Mammo_Classification
+# KTL_project_08_Mammo_BreastCancer_Classification
 
 This repository contains a PyTorch implementation of a Mammo classification deep learning model. The steps for training and testing the model are outlined below.
 
@@ -50,8 +50,8 @@ Before you begin, ensure you have met the following requirements:
 
 - Clone this repo:
 ```bash
-git clone https://github.com/ktlProject0/KTL_project_08_Mammo_Classification.git
-cd KTL_project_08_Mammo_Classification
+git clone https://github.com/ktlProject0/KTL_project_08_Mammo_BreastCancer_Classification.git
+cd KTL_project_08_Mammo_BreastCancer_Classification
 ```
  - You can create a new Conda environment using `conda env create -f environment.yml`.
 
