@@ -57,9 +57,10 @@ class CustomDataset(Dataset):
         return sample_input      
 
 if __name__ == '__main__':
-    train = CustomDataset('/home/miil/DATA1/dahee/Mammo/Mammo_hub/data/train/', 'train')
-    test = CustomDataset('/home/miil/DATA1/dahee/Mammo/Mammo_hub/data/test/', 'eval')
+    train = CustomDataset('/home/pwrai/userarea/KTL_project_08_Mammo_BreastCancer_Classification/data/', 'train')
+    test = CustomDataset('/home/pwrai/userarea/KTL_project_08_Mammo_BreastCancer_Classification/data/', 'eval')
     
     for sample_input in train:
         print(sample_input['input'].shape)
         print(sample_input['target'])
+
