@@ -1,4 +1,4 @@
-name: 08_mammo_classification
+name: KTL_project_08_Mammo_BreastCancer_Classification
 channels:
   - pytorch
   - nvidia
@@ -216,4 +216,4 @@ dependencies:
       - fsspec==2024.10.0
       - simpleitk==2.4.0
       - sympy==1.13.1
-prefix: /home/dahee/anaconda3/envs/08_mammo_classification
+prefix: /home/pwrai/userarea/anaconda_envs/envs/KTL_project_08_Mammo_BreastCancer_Classification
